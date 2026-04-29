@@ -1,4 +1,6 @@
-# Agnostic Skills for skills.sh / npx skills
+# Awesome Agnostic Skills
+
+Agent-agnostic development skills for [skills.sh](https://skills.sh) / `npx skills`.
 
 This fork adapts the VoltAgent [awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) catalog into the open Agent Skills directory format used by [skills.sh](https://skills.sh) and `npx skills`.
 
@@ -18,19 +20,19 @@ The generated skills live in [`skills/`](./skills/). Each original Claude Code s
 List available skills:
 
 ```bash
-npx skills add joaroo/awesome-claude-code-subagents --list
+npx skills add joaroo/awesome-agnostic-skills --list
 ```
 
 Install one or more skills:
 
 ```bash
-npx skills add joaroo/awesome-claude-code-subagents --skill frontend-developer --skill code-reviewer
+npx skills add joaroo/awesome-agnostic-skills --skill frontend-developer --skill code-reviewer
 ```
 
 Install all generated skills:
 
 ```bash
-npx skills add joaroo/awesome-claude-code-subagents --all
+npx skills add joaroo/awesome-agnostic-skills --all
 ```
 
 Regenerate the `skills/` tree from the upstream `categories/` agents:
