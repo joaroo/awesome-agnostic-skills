@@ -42,6 +42,51 @@
 
 
 
+# Agnostic Skills for skills.sh / npx skills
+
+This fork adapts the VoltAgent `awesome-claude-code-subagents` catalog into the open Agent Skills directory format used by [skills.sh](https://skills.sh) and `npx skills`.
+
+The generated skills live in [`skills/`](./skills/). Each original Claude Code subagent is converted into a standalone skill directory with a `SKILL.md` file and minimal Agent Skills frontmatter.
+
+> **Review before installing all:** these skills are generated from third-party agent instructions. Install only the skills you need, inspect unfamiliar instructions before use, and avoid granting tools or permissions you do not trust.
+
+## Conversion Notes
+
+- Generated from upstream `categories/**/*.md` files.
+- Claude-specific `tools` and `model` frontmatter are removed.
+- `agent-installer` is intentionally excluded because it installs Claude Code agents into `~/.claude/agents/`, which is not useful for a skills.sh catalog.
+- Each generated skill includes MIT attribution to VoltAgent.
+
+## Install with npx skills
+
+List available skills:
+
+```bash
+npx skills add joaroo/awesome-claude-code-subagents --list
+```
+
+Install one or more skills:
+
+```bash
+npx skills add joaroo/awesome-claude-code-subagents --skill frontend-developer --skill code-reviewer
+```
+
+Install all generated skills:
+
+```bash
+npx skills add joaroo/awesome-claude-code-subagents --all
+```
+
+Regenerate the `skills/` tree from the upstream `categories/` agents:
+
+```bash
+node scripts/convert-agents-to-skills.mjs
+```
+
+## Upstream Claude Code Subagents
+
+The original README content is preserved below for upstream attribution and compatibility context.
+
 # Awesome Claude Code Subagents 
 
 This repository serves as the definitive collection of Claude Code subagents, specialized AI assitants designed for specific development tasks. 
