@@ -1,50 +1,6 @@
-<a href="https://github.com/VoltAgent/voltagent">
-<img width="1500" height="500" alt="Group 32" src="https://github.com/user-attachments/assets/55b97c47-8506-4be0-b18f-f5384d063cbb" />
-</a>
-
-<br />
-<br/>
-
-<div align="center">
-    <strong>The awesome collection of Claude Code subagents.</strong>
-    <br />
-    <br />
-</div>
-
-<div align="center">
-    
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
-![Subagent Count](https://img.shields.io/badge/subagents-131+-blue?style=flat-square)
-[![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-claude-code-subagents?label=Last%20update&style=flat-square)](https://github.com/VoltAgent/awesome-claude-code-subagents)
-<a href="https://github.com/VoltAgent/voltagent">
-  <img alt="VoltAgent" src="https://cdn.voltagent.dev/website/logo/logo-2-svg.svg" height="20" />
-</a>
-[![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
-
-</div>
-
-
-<div align="center">
-    <strong>More awesome collections for developers</strong>
-    <br />
-    <br />
-</div>
-
-<div align="center">
-
-
-[![Agent Skills](https://img.shields.io/github/stars/VoltAgent/awesome-agent-skills?style=classic&label=%E2%9A%A1%20Agent%20Skills&color=black)](https://github.com/VoltAgent/awesome-agent-skills)
-[![Codex Subagents][codex-badge]][codex-link]
-[![OpenClaw Skills](https://img.shields.io/github/stars/VoltAgent/awesome-openclaw-skills?style=classic&label=%F0%9F%A6%9E%20OpenClaw%20Skills&color=f53e36)](https://github.com/VoltAgent/awesome-openclaw-skills)
-[![AI Agent Papers](https://img.shields.io/github/stars/VoltAgent/awesome-ai-agent-papers?style=classic&label=AI%20Agent%20Papers&color=b31b1b&logo=arxiv)](https://github.com/VoltAgent/awesome-ai-agent-papers)
-
-</div>
-
-
-
 # Agnostic Skills for skills.sh / npx skills
 
-This fork adapts the VoltAgent `awesome-claude-code-subagents` catalog into the open Agent Skills directory format used by [skills.sh](https://skills.sh) and `npx skills`.
+This fork adapts the VoltAgent [awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) catalog into the open Agent Skills directory format used by [skills.sh](https://skills.sh) and `npx skills`.
 
 The generated skills live in [`skills/`](./skills/). Each original Claude Code subagent is converted into a standalone skill directory with a `SKILL.md` file and minimal Agent Skills frontmatter.
 
