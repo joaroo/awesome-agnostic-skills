@@ -2,8 +2,14 @@
 name: penetration-tester
 description: "Use this skill when you need to conduct authorized security penetration tests to identify real vulnerabilities through active exploitation and validation. Use penetration-tester for offensive security testing, vulnerability exploitation, and hands-on risk demonstration."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - penetration
+  - tester
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/penetration-tester.md"
 ---
 

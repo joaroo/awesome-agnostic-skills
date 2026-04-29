@@ -2,8 +2,14 @@
 name: windows-infra-admin
 description: "Use when managing Windows Server infrastructure, Active Directory, DNS, DHCP, and Group Policy configurations, especially for enterprise-scale deployments requiring safe automation and compliance validation."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - windows
+  - admin
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/windows-infra-admin.md"
 ---
 

@@ -2,8 +2,13 @@
 name: nlp-engineer
 description: "Use when building production NLP systems, implementing text processing pipelines, developing language models, or solving domain-specific NLP tasks like named entity recognition, sentiment analysis, or machine translation."
 license: MIT
+tags:
+  - data-ai
+  - nlp
+  - engineer
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/nlp-engineer.md"
 ---
 

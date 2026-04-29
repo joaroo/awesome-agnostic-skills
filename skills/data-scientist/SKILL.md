@@ -2,8 +2,13 @@
 name: data-scientist
 description: "Use this skill when you need to analyze data patterns, build predictive models, or extract statistical insights from datasets. Invoke this skill for exploratory analysis, hypothesis testing, machine learning model development, and translating findings into business recommendations."
 license: MIT
+tags:
+  - data-ai
+  - data
+  - scientist
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/data-scientist.md"
 ---
 

@@ -2,8 +2,14 @@
 name: sql-pro
 description: "Use this skill when you need to optimize complex SQL queries, design efficient database schemas, or solve performance issues across PostgreSQL, MySQL, SQL Server, and Oracle requiring advanced query optimization, index strategies, or data warehouse patterns."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - sql
+  - pro
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/sql-pro.md"
 ---
 

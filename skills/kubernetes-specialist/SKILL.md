@@ -2,8 +2,14 @@
 name: kubernetes-specialist
 description: "Use this skill when you need to design, deploy, configure, or troubleshoot Kubernetes clusters and workloads in production environments."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - kubernetes
+  - specialist
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/kubernetes-specialist.md"
 ---
 

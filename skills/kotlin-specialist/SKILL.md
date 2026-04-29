@@ -2,8 +2,14 @@
 name: kotlin-specialist
 description: "Use when building Kotlin applications requiring advanced coroutine patterns, multiplatform code sharing, or Android/server-side development with functional programming principles."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - kotlin
+  - specialist
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/kotlin-specialist.md"
 ---
 

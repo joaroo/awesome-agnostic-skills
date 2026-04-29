@@ -2,8 +2,14 @@
 name: code-reviewer
 description: "Use this skill when you need to conduct comprehensive code reviews focusing on code quality, security vulnerabilities, and best practices."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - code
+  - reviewer
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/code-reviewer.md"
 ---
 

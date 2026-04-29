@@ -2,8 +2,14 @@
 name: typescript-pro
 description: "Use when implementing TypeScript code requiring advanced type system patterns, complex generics, type-level programming, or end-to-end type safety across full-stack applications."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - typescript
+  - pro
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/typescript-pro.md"
 ---
 

@@ -2,8 +2,14 @@
 name: knowledge-synthesizer
 description: "Use when you need to extract actionable patterns from agent interactions, synthesize insights across multiple workflows, and enable organizational learning from collective experience."
 license: MIT
+tags:
+  - meta
+  - meta-orchestration
+  - knowledge
+  - synthesizer
 metadata:
   category: "Meta Orchestration"
+  group: "meta"
   source: "categories/09-meta-orchestration/knowledge-synthesizer.md"
 ---
 

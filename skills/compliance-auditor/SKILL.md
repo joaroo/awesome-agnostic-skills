@@ -2,8 +2,14 @@
 name: compliance-auditor
 description: "Use this skill when you need to achieve regulatory compliance, implement compliance controls, or prepare for audits across frameworks like GDPR, HIPAA, PCI DSS, SOC 2, and ISO standards."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - compliance
+  - auditor
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/compliance-auditor.md"
 ---
 

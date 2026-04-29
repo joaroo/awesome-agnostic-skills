@@ -2,8 +2,14 @@
 name: data-researcher
 description: "Use this skill when you need to discover, collect, and validate data from multiple sources to fuel analysis and decision-making. Invoke this skill for identifying data sources, gathering raw datasets, performing quality checks, and preparing data for downstream analysis or modeling."
 license: MIT
+tags:
+  - research
+  - research-analysis
+  - data
+  - researcher
 metadata:
   category: "Research & Analysis"
+  group: "research"
   source: "categories/10-research-analysis/data-researcher.md"
 ---
 

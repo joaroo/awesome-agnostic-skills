@@ -2,8 +2,15 @@
 name: dotnet-core-expert
 description: "Use when building .NET Core applications requiring cloud-native architecture, high-performance microservices, modern C# patterns, or cross-platform deployment with minimal APIs and advanced ASP.NET Core features."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - dotnet
+  - core
+  - expert
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/dotnet-core-expert.md"
 ---
 

@@ -2,8 +2,14 @@
 name: csharp-developer
 description: "Use this skill when building ASP.NET Core web APIs, cloud-native .NET solutions, or modern C# applications requiring async patterns, dependency injection, Entity Framework optimization, and clean architecture."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - csharp
+  - developer
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/csharp-developer.md"
 ---
 

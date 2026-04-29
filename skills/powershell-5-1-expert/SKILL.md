@@ -2,8 +2,14 @@
 name: powershell-5-1-expert
 description: "Use when automating Windows infrastructure tasks requiring PowerShell 5.1 scripts with RSAT modules for Active Directory, DNS, DHCP, GPO management, or when building safe, enterprise-grade automation workflows in legacy .NET Framework environments."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - powershell
+  - expert
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/powershell-5.1-expert.md"
 ---
 

@@ -2,8 +2,14 @@
 name: laravel-specialist
 description: "Use when building Laravel 10+ applications, architecting Eloquent models with complex relationships, implementing queue systems for async processing, or optimizing API performance."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - laravel
+  - specialist
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/laravel-specialist.md"
 ---
 

@@ -2,8 +2,15 @@
 name: multi-agent-coordinator
 description: "Use when coordinating multiple concurrent agents that need to communicate, share state, synchronize work, and handle distributed failures across a system."
 license: MIT
+tags:
+  - meta
+  - meta-orchestration
+  - multi
+  - agent
+  - coordinator
 metadata:
   category: "Meta Orchestration"
+  group: "meta"
   source: "categories/09-meta-orchestration/multi-agent-coordinator.md"
 ---
 

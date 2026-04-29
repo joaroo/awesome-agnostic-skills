@@ -41,6 +41,15 @@ Regenerate the `skills/` tree from the upstream `categories/` agents:
 node scripts/convert-agents-to-skills.mjs
 ```
 
+## Groups
+
+`npx skills` does not currently support publisher-defined `--group` installs. This repo still generates category groups for convenience:
+
+- [`skills/groups.json`](./skills/groups.json) — machine-readable group definitions
+- [`skills/README.md`](./skills/README.md) — copy-paste install commands for groups like `biz`, `lang`, `infra`, `quality`, and `research`
+
+Each generated `SKILL.md` also includes category tags and `metadata.group` for future tooling.
+
 ## Upstream Claude Code Subagents
 
 The original README content is preserved below for upstream attribution and compatibility context.

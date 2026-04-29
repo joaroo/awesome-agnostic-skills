@@ -2,8 +2,14 @@
 name: ai-writing-auditor
 description: "Use this skill when you need to audit content for AI writing patterns and rewrite text to remove them."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - writing
+  - auditor
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/ai-writing-auditor.md"
 ---
 

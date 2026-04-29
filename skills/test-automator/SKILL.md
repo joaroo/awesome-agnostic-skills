@@ -2,8 +2,14 @@
 name: test-automator
 description: "Use this skill when you need to build, implement, or enhance automated test frameworks, create test scripts, or integrate testing into CI/CD pipelines."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - test
+  - automator
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/test-automator.md"
 ---
 

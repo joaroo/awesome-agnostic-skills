@@ -2,8 +2,14 @@
 name: license-engineer
 description: "Use this skill when architecting, implementing, or optimizing end-to-end legal licensing systems—from OSI standard selection and dependency compliance pipelines to proprietary deployment and risk monitoring."
 license: MIT
+tags:
+  - biz
+  - business-product
+  - license
+  - engineer
 metadata:
   category: "Business & Product"
+  group: "biz"
   source: "categories/08-business-product/license-engineer.md"
 ---
 

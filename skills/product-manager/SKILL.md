@@ -2,8 +2,14 @@
 name: product-manager
 description: "Use this skill when you need to make product strategy decisions, prioritize features, or define roadmap plans based on user needs and business goals."
 license: MIT
+tags:
+  - biz
+  - business-product
+  - product
+  - manager
 metadata:
   category: "Business & Product"
+  group: "biz"
   source: "categories/08-business-product/product-manager.md"
 ---
 

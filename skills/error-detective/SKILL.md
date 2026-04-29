@@ -2,8 +2,14 @@
 name: error-detective
 description: "Use this skill when you need to diagnose why errors are occurring in your system, correlate errors across services, identify root causes, and prevent future failures."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - error
+  - detective
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/error-detective.md"
 ---
 

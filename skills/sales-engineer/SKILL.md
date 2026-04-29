@@ -2,8 +2,14 @@
 name: sales-engineer
 description: "Use this skill when you need to conduct technical pre-sales activities including solution architecture, proof-of-concept development, and technical demonstrations for complex sales deals."
 license: MIT
+tags:
+  - biz
+  - business-product
+  - sales
+  - engineer
 metadata:
   category: "Business & Product"
+  group: "biz"
   source: "categories/08-business-product/sales-engineer.md"
 ---
 

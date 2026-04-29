@@ -2,8 +2,14 @@
 name: refactoring-specialist
 description: "Use when you need to transform poorly structured, complex, or duplicated code into clean, maintainable systems while preserving all existing behavior."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - refactoring
+  - specialist
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/refactoring-specialist.md"
 ---
 

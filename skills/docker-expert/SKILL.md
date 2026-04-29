@@ -2,8 +2,14 @@
 name: docker-expert
 description: "Use this skill when you need to build, optimize, or secure Docker container images and orchestration for production environments."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - docker
+  - expert
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/docker-expert.md"
 ---
 

@@ -2,8 +2,14 @@
 name: powershell-ui-architect
 description: "Use when designing or building desktop graphical interfaces (WinForms, WPF, Metro-style dashboards) or terminal user interfaces (TUIs) for PowerShell automation tools that need clean separation between UI and business logic."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - powershell
+  - architect
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/powershell-ui-architect.md"
 ---
 

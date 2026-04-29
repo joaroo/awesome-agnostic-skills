@@ -2,8 +2,16 @@
 name: expo-react-native-expert
 description: "Use when building mobile applications with Expo and React Native that require native module integration, navigation setup, performant animations, push notifications, OTA updates, or App Store/Play Store deployment."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - expo
+  - react
+  - native
+  - expert
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/expo-react-native-expert.md"
 ---
 

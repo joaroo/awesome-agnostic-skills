@@ -2,8 +2,13 @@
 name: prompt-engineer
 description: "Use this skill when you need to design, optimize, test, or evaluate prompts for large language models in production systems."
 license: MIT
+tags:
+  - data-ai
+  - prompt
+  - engineer
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/prompt-engineer.md"
 ---
 

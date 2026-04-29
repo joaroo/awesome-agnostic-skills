@@ -2,8 +2,14 @@
 name: symfony-specialist
 description: "Use when building Symfony 6+/7+/8+ applications, architecting Doctrine ORM entities with complex relationships, implementing Messenger component for async processing, or optimizing API Platform performance."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - symfony
+  - specialist
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/symfony-specialist.md"
 ---
 

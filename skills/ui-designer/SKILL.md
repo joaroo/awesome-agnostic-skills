@@ -2,8 +2,13 @@
 name: ui-designer
 description: "Use this skill when designing visual interfaces, creating design systems, building component libraries, or refining user-facing aesthetics requiring expert visual design, interaction patterns, and accessibility considerations."
 license: MIT
+tags:
+  - core
+  - core-development
+  - designer
 metadata:
   category: "Core Development"
+  group: "core"
   source: "categories/01-core-development/ui-designer.md"
 ---
 

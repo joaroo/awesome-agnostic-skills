@@ -2,8 +2,14 @@
 name: cpp-pro
 description: "Use this skill when building high-performance C++ systems requiring modern C++20/23 features, template metaprogramming, or zero-overhead abstractions for systems programming, embedded systems, or performance-critical applications."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - cpp
+  - pro
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/cpp-pro.md"
 ---
 

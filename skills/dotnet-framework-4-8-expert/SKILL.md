@@ -2,8 +2,15 @@
 name: dotnet-framework-4-8-expert
 description: "Use this skill when working on legacy .NET Framework 4.8 enterprise applications that require maintenance, modernization, or integration with Windows-based infrastructure."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - dotnet
+  - framework
+  - expert
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/dotnet-framework-4.8-expert.md"
 ---
 

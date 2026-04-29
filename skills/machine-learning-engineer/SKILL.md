@@ -2,8 +2,14 @@
 name: machine-learning-engineer
 description: "Use this skill when you need to deploy, optimize, or serve machine learning models at scale in production environments."
 license: MIT
+tags:
+  - data-ai
+  - machine
+  - learning
+  - engineer
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/machine-learning-engineer.md"
 ---
 

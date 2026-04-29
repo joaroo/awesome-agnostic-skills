@@ -2,8 +2,14 @@
 name: performance-monitor
 description: "Use when establishing observability infrastructure to track system metrics, detect performance anomalies, and optimize resource usage across multi-agent environments."
 license: MIT
+tags:
+  - meta
+  - meta-orchestration
+  - performance
+  - monitor
 metadata:
   category: "Meta Orchestration"
+  group: "meta"
   source: "categories/09-meta-orchestration/performance-monitor.md"
 ---
 

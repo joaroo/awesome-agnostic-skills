@@ -2,8 +2,15 @@
 name: project-idea-validator
 description: "Use this skill when you need an idea pressure-tested with brutal honesty, competitor teardown, market validation, and clear go/no-go guidance before building."
 license: MIT
+tags:
+  - research
+  - research-analysis
+  - project
+  - idea
+  - validator
 metadata:
   category: "Research & Analysis"
+  group: "research"
   source: "categories/10-research-analysis/project-idea-validator.md"
 ---
 

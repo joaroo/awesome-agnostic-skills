@@ -2,8 +2,14 @@
 name: it-ops-orchestrator
 description: "Use for orchestrating complex IT operations tasks that span multiple domains (PowerShell automation, .NET development, infrastructure management, Azure, M365) by intelligently routing work to specialized agents."
 license: MIT
+tags:
+  - meta
+  - meta-orchestration
+  - ops
+  - orchestrator
 metadata:
   category: "Meta Orchestration"
+  group: "meta"
   source: "categories/09-meta-orchestration/it-ops-orchestrator.md"
 ---
 

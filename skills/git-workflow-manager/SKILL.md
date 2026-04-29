@@ -2,8 +2,15 @@
 name: git-workflow-manager
 description: "Use this skill when you need to design, establish, or optimize Git workflows, branching strategies, and merge management for a project or team."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - git
+  - workflow
+  - manager
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/git-workflow-manager.md"
 ---
 

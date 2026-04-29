@@ -2,8 +2,14 @@
 name: slack-expert
 description: "Use this skill when developing Slack applications, implementing Slack API integrations, or reviewing Slack bot code for security and best practices."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - slack
+  - expert
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/slack-expert.md"
 ---
 

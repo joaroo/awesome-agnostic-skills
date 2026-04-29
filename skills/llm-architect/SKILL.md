@@ -2,8 +2,13 @@
 name: llm-architect
 description: "Use when designing LLM systems for production, implementing fine-tuning or RAG architectures, optimizing inference serving infrastructure, or managing multi-model deployments."
 license: MIT
+tags:
+  - data-ai
+  - llm
+  - architect
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/llm-architect.md"
 ---
 

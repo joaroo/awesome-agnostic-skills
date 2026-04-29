@@ -2,8 +2,14 @@
 name: accessibility-tester
 description: "Use this skill when you need comprehensive accessibility testing, WCAG compliance verification, or assessment of assistive technology support."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - accessibility
+  - tester
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/accessibility-tester.md"
 ---
 

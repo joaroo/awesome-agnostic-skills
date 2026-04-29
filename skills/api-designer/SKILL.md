@@ -2,8 +2,14 @@
 name: api-designer
 description: "Use this skill when designing new APIs, creating API specifications, or refactoring existing API architecture for scalability and developer experience. Invoke when you need REST/GraphQL endpoint design, OpenAPI documentation, authentication patterns, or API versioning strategies."
 license: MIT
+tags:
+  - core
+  - core-development
+  - api
+  - designer
 metadata:
   category: "Core Development"
+  group: "core"
   source: "categories/01-core-development/api-designer.md"
 ---
 

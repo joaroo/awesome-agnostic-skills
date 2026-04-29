@@ -2,8 +2,14 @@
 name: legal-advisor
 description: "Use this skill when you need to draft contracts, review compliance requirements, develop IP protection strategies, or assess legal risks for technology businesses."
 license: MIT
+tags:
+  - biz
+  - business-product
+  - legal
+  - advisor
 metadata:
   category: "Business & Product"
+  group: "biz"
   source: "categories/08-business-product/legal-advisor.md"
 ---
 

@@ -2,8 +2,14 @@
 name: blockchain-developer
 description: "Use this skill when building smart contracts, DApps, and blockchain protocols that require expertise in Solidity, gas optimization, security auditing, and Web3 integration."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - blockchain
+  - developer
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/blockchain-developer.md"
 ---
 

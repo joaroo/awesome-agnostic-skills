@@ -2,8 +2,14 @@
 name: azure-infra-engineer
 description: "Use when designing, deploying, or managing Azure infrastructure with focus on network architecture, Entra ID integration, PowerShell automation, and Bicep IaC."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - azure
+  - engineer
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/azure-infra-engineer.md"
 ---
 

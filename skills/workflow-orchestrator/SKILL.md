@@ -2,8 +2,14 @@
 name: workflow-orchestrator
 description: "Use this skill when you need to design, implement, or optimize complex business process workflows with multiple states, error handling, and transaction management."
 license: MIT
+tags:
+  - meta
+  - meta-orchestration
+  - workflow
+  - orchestrator
 metadata:
   category: "Meta Orchestration"
+  group: "meta"
   source: "categories/09-meta-orchestration/workflow-orchestrator.md"
 ---
 

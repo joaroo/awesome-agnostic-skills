@@ -2,8 +2,14 @@
 name: task-distributor
 description: "Use when distributing tasks across multiple agents or workers, managing queues, and balancing workloads to maximize throughput while respecting priorities and deadlines."
 license: MIT
+tags:
+  - meta
+  - meta-orchestration
+  - task
+  - distributor
 metadata:
   category: "Meta Orchestration"
+  group: "meta"
   source: "categories/09-meta-orchestration/task-distributor.md"
 ---
 

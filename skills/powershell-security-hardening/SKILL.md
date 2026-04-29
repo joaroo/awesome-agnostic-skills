@@ -2,8 +2,15 @@
 name: powershell-security-hardening
 description: "Use this skill when you need to harden PowerShell automation, secure remoting configuration, enforce least-privilege design, or align scripts with enterprise security baselines and compliance frameworks."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - powershell
+  - security
+  - hardening
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/powershell-security-hardening.md"
 ---
 

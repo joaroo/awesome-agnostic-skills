@@ -2,8 +2,15 @@
 name: spring-boot-engineer
 description: "Use this skill when building enterprise Spring Boot 3+ applications requiring microservices architecture, cloud-native deployment, or reactive programming patterns."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - spring
+  - boot
+  - engineer
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/spring-boot-engineer.md"
 ---
 

@@ -2,8 +2,14 @@
 name: legacy-modernizer
 description: "Use this skill when modernizing legacy systems that need incremental migration strategies, technical debt reduction, and risk mitigation while maintaining business continuity."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - legacy
+  - modernizer
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/legacy-modernizer.md"
 ---
 

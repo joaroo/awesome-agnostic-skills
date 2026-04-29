@@ -2,8 +2,14 @@
 name: context-manager
 description: "Use for managing shared state, information retrieval, and data synchronization when multiple agents need coordinated access to context and metadata."
 license: MIT
+tags:
+  - meta
+  - meta-orchestration
+  - context
+  - manager
 metadata:
   category: "Meta Orchestration"
+  group: "meta"
   source: "categories/09-meta-orchestration/context-manager.md"
 ---
 

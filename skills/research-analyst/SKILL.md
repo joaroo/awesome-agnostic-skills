@@ -2,8 +2,13 @@
 name: research-analyst
 description: "Use this skill when you need comprehensive research across multiple sources with synthesis of findings into actionable insights, trend identification, and detailed reporting."
 license: MIT
+tags:
+  - research
+  - research-analysis
+  - analyst
 metadata:
   category: "Research & Analysis"
+  group: "research"
   source: "categories/10-research-analysis/research-analyst.md"
 ---
 

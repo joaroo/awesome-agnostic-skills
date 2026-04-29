@@ -2,8 +2,13 @@
 name: qa-expert
 description: "Use this skill when you need comprehensive quality assurance strategy, test planning across the entire development cycle, or quality metrics analysis to improve overall software quality."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - expert
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/qa-expert.md"
 ---
 

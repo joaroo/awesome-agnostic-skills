@@ -2,8 +2,14 @@
 name: seo-specialist
 description: "Use this skill when you need comprehensive SEO optimization encompassing technical audits, keyword strategy, content optimization, and search rankings improvement."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - seo
+  - specialist
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/seo-specialist.md"
 ---
 

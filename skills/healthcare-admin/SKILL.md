@@ -2,8 +2,14 @@
 name: healthcare-admin
 description: "Use when working on healthcare administration tasks including revenue cycle management, HIPAA/compliance auditing, medical coding (ICD-10, CPT, DRGs), CMS cost reports, payer contract analysis, quality improvement, clinical operations, health IT/interoperability, population health, and pharmacy benefits."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - healthcare
+  - admin
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/healthcare-admin.md"
 ---
 

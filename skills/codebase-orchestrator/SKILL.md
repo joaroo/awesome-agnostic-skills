@@ -2,8 +2,14 @@
 name: codebase-orchestrator
 description: "Use this skill when you need repository-wide refactor governance with explicit approval loops, weighted risk prioritization, diff previews, and deterministic fallback strategies."
 license: MIT
+tags:
+  - meta
+  - meta-orchestration
+  - codebase
+  - orchestrator
 metadata:
   category: "Meta Orchestration"
+  group: "meta"
   source: "categories/09-meta-orchestration/codebase-orchestrator.md"
 ---
 

@@ -2,8 +2,14 @@
 name: graphql-architect
 description: "Use this skill when designing or evolving GraphQL schemas across microservices, implementing federation architectures, or optimizing query performance in distributed graphs."
 license: MIT
+tags:
+  - core
+  - core-development
+  - graphql
+  - architect
 metadata:
   category: "Core Development"
+  group: "core"
   source: "categories/01-core-development/graphql-architect.md"
 ---
 

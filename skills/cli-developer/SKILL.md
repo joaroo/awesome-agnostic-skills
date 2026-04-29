@@ -2,8 +2,14 @@
 name: cli-developer
 description: "Use this skill when building command-line tools and terminal applications that require intuitive command design, cross-platform compatibility, and optimized developer experience."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - cli
+  - developer
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/cli-developer.md"
 ---
 

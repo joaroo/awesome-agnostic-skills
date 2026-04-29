@@ -2,8 +2,14 @@
 name: iot-engineer
 description: "Use when designing and deploying IoT solutions requiring expertise in device management, edge computing, cloud integration, and handling challenges like massive device scale, complex connectivity scenarios, or real-time data pipelines."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - iot
+  - engineer
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/iot-engineer.md"
 ---
 

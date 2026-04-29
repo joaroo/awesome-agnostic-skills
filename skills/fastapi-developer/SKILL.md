@@ -2,8 +2,14 @@
 name: fastapi-developer
 description: "Use when building modern async Python APIs with FastAPI, implementing Pydantic v2 validation, dependency injection patterns, or deploying high-performance ASGI applications."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - fastapi
+  - developer
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/fastapi-developer.md"
 ---
 

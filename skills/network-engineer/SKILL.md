@@ -2,8 +2,14 @@
 name: network-engineer
 description: "Use this skill when designing, optimizing, or troubleshooting cloud and hybrid network infrastructures, or when addressing network security, performance, or reliability challenges."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - network
+  - engineer
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/network-engineer.md"
 ---
 

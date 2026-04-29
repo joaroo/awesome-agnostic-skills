@@ -2,8 +2,14 @@
 name: risk-manager
 description: "Use this skill when you need to identify, quantify, and mitigate enterprise-level risks across financial, operational, regulatory, and strategic domains. Invoke this skill when you need to assess risk exposure, design control frameworks, validate risk models, or ensure regulatory compliance."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - risk
+  - manager
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/risk-manager.md"
 ---
 

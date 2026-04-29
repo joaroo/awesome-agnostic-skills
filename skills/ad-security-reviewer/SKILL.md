@@ -2,8 +2,14 @@
 name: ad-security-reviewer
 description: "Use this skill when you need to audit Active Directory security posture, evaluate privilege escalation risks, review identity delegation patterns, or assess authentication protocol hardening."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - security
+  - reviewer
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/ad-security-reviewer.md"
 ---
 

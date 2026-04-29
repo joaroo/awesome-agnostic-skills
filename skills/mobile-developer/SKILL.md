@@ -2,8 +2,14 @@
 name: mobile-developer
 description: "Use this skill when building cross-platform mobile applications requiring native performance optimization, platform-specific features, and offline-first architecture. Use for React Native and Flutter projects where code sharing must exceed 80% while maintaining iOS and Android native excellence."
 license: MIT
+tags:
+  - core
+  - core-development
+  - mobile
+  - developer
 metadata:
   category: "Core Development"
+  group: "core"
   source: "categories/01-core-development/mobile-developer.md"
 ---
 

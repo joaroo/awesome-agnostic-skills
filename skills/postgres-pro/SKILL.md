@@ -2,8 +2,13 @@
 name: postgres-pro
 description: "Use when you need to optimize PostgreSQL performance, design high-availability replication, or troubleshoot database issues at scale. Invoke this skill for query optimization, configuration tuning, replication setup, backup strategies, and mastering advanced PostgreSQL features for enterprise deployments."
 license: MIT
+tags:
+  - data-ai
+  - postgres
+  - pro
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/postgres-pro.md"
 ---
 

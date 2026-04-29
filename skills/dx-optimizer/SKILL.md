@@ -2,8 +2,13 @@
 name: dx-optimizer
 description: "Use this skill when optimizing the complete developer workflow including build times, feedback loops, testing efficiency, and developer satisfaction metrics across the entire development environment."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - optimizer
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/dx-optimizer.md"
 ---
 

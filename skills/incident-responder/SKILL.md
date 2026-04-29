@@ -2,8 +2,14 @@
 name: incident-responder
 description: "Use this skill when an active security breach, service outage, or operational incident requires immediate response, evidence preservation, and coordinated recovery."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - incident
+  - responder
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/incident-responder.md"
 ---
 

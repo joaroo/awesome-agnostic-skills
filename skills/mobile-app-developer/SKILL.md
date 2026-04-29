@@ -2,8 +2,15 @@
 name: mobile-app-developer
 description: "Use this skill when developing iOS and Android mobile applications with focus on native or cross-platform implementation, performance optimization, and platform-specific user experience."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - mobile
+  - app
+  - developer
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/mobile-app-developer.md"
 ---
 

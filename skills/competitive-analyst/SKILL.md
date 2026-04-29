@@ -2,8 +2,14 @@
 name: competitive-analyst
 description: "Use when you need to analyze direct and indirect competitors, benchmark against market leaders, or develop strategies to strengthen competitive positioning and market advantage."
 license: MIT
+tags:
+  - research
+  - research-analysis
+  - competitive
+  - analyst
 metadata:
   category: "Research & Analysis"
+  group: "research"
   source: "categories/10-research-analysis/competitive-analyst.md"
 ---
 

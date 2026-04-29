@@ -2,8 +2,14 @@
 name: microservices-architect
 description: "Use when designing distributed system architecture, decomposing monolithic applications into independent microservices, or establishing communication patterns between services at scale."
 license: MIT
+tags:
+  - core
+  - core-development
+  - microservices
+  - architect
 metadata:
   category: "Core Development"
+  group: "core"
   source: "categories/01-core-development/microservices-architect.md"
 ---
 

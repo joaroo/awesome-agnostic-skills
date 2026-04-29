@@ -2,8 +2,14 @@
 name: performance-engineer
 description: "Use this skill when you need to identify and eliminate performance bottlenecks in applications, databases, or infrastructure systems, and when baseline performance metrics need improvement."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - performance
+  - engineer
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/performance-engineer.md"
 ---
 

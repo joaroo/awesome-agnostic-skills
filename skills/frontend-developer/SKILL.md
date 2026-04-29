@@ -2,8 +2,14 @@
 name: frontend-developer
 description: "Use when building complete frontend applications across React, Vue, and Angular frameworks requiring multi-framework expertise and full-stack integration."
 license: MIT
+tags:
+  - core
+  - core-development
+  - frontend
+  - developer
 metadata:
   category: "Core Development"
+  group: "core"
   source: "categories/01-core-development/frontend-developer.md"
 ---
 

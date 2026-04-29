@@ -2,8 +2,14 @@
 name: golang-pro
 description: "Use when building Go applications requiring concurrent programming, high-performance systems, microservices, or cloud-native architectures where idiomatic patterns, error handling excellence, and efficiency are critical."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - golang
+  - pro
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/golang-pro.md"
 ---
 

@@ -2,8 +2,14 @@
 name: market-researcher
 description: "Use this skill when you need to analyze markets, understand consumer behavior, assess competitive landscapes, and size opportunities to inform business strategy and market entry decisions."
 license: MIT
+tags:
+  - research
+  - research-analysis
+  - market
+  - researcher
 metadata:
   category: "Research & Analysis"
+  group: "research"
   source: "categories/10-research-analysis/market-researcher.md"
 ---
 

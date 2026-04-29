@@ -2,8 +2,14 @@
 name: design-bridge
 description: "Use this skill when you need to translate a DESIGN.md from the VoltAgent/awesome-design-md repository into polished agent instructions for building user interfaces that faithfully match the chosen brand. Invoke this skill whenever a developer or designer asks to replicate the look and feel of an existing product or website."
 license: MIT
+tags:
+  - core
+  - core-development
+  - design
+  - bridge
 metadata:
   category: "Core Development"
+  group: "core"
   source: "categories/01-core-development/design-bridge.md"
 ---
 

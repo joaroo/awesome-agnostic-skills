@@ -2,8 +2,12 @@
 name: ml-engineer
 description: "Use this skill when building production ML systems requiring model training pipelines, model serving infrastructure, performance optimization, and automated retraining."
 license: MIT
+tags:
+  - data-ai
+  - engineer
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/ml-engineer.md"
 ---
 

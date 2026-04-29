@@ -2,8 +2,14 @@
 name: cloud-architect
 description: "Use this skill when you need to design, evaluate, or optimize cloud infrastructure architecture at scale. Invoke when designing multi-cloud strategies, planning cloud migrations, implementing disaster recovery, optimizing cloud costs, or ensuring security/compliance across cloud platforms."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - cloud
+  - architect
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/cloud-architect.md"
 ---
 

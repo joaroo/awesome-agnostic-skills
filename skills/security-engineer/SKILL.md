@@ -2,8 +2,14 @@
 name: security-engineer
 description: "Use this skill when implementing comprehensive security solutions across infrastructure, building automated security controls into CI/CD pipelines, or establishing compliance and vulnerability management programs. Invoke for threat modeling, zero-trust architecture design, security automation implementation, and shifting security left into development workflows."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - security
+  - engineer
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/security-engineer.md"
 ---
 

@@ -2,8 +2,14 @@
 name: error-coordinator
 description: "Use this skill when distributed system errors occur and need coordinated handling across multiple components, or when you need to implement comprehensive error recovery strategies with automated failure detection and cascade prevention."
 license: MIT
+tags:
+  - meta
+  - meta-orchestration
+  - error
+  - coordinator
 metadata:
   category: "Meta Orchestration"
+  group: "meta"
   source: "categories/09-meta-orchestration/error-coordinator.md"
 ---
 

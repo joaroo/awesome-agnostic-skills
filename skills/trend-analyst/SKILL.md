@@ -2,8 +2,14 @@
 name: trend-analyst
 description: "Use when analyzing emerging patterns, predicting industry shifts, or developing future scenarios to inform strategic planning and competitive positioning."
 license: MIT
+tags:
+  - research
+  - research-analysis
+  - trend
+  - analyst
 metadata:
   category: "Research & Analysis"
+  group: "research"
   source: "categories/10-research-analysis/trend-analyst.md"
 ---
 

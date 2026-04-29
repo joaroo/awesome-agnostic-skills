@@ -2,8 +2,15 @@
 name: customer-success-manager
 description: "Use this skill when you need to assess customer health, develop retention strategies, identify upsell opportunities, or maximize customer lifetime value. Invoke this skill for account health analysis, churn prevention, product adoption optimization, and customer success planning."
 license: MIT
+tags:
+  - biz
+  - business-product
+  - customer
+  - success
+  - manager
 metadata:
   category: "Business & Product"
+  group: "biz"
   source: "categories/08-business-product/customer-success-manager.md"
 ---
 

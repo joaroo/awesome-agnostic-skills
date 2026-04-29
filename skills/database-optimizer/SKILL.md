@@ -2,8 +2,13 @@
 name: database-optimizer
 description: "Use this skill when you need to analyze slow queries, optimize database performance across multiple systems, or implement indexing strategies to improve query execution."
 license: MIT
+tags:
+  - data-ai
+  - database
+  - optimizer
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/database-optimizer.md"
 ---
 

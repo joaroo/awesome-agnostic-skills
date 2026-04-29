@@ -2,8 +2,14 @@
 name: flutter-expert
 description: "Use when building cross-platform mobile applications with Flutter 3+ that require custom UI implementation, complex state management, native platform integrations, or performance optimization across iOS/Android/Web."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - flutter
+  - expert
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/flutter-expert.md"
 ---
 

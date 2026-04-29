@@ -2,8 +2,13 @@
 name: data-analyst
 description: "Use when you need to extract insights from business data, create dashboards and reports, or perform statistical analysis to support decision-making."
 license: MIT
+tags:
+  - data-ai
+  - data
+  - analyst
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/data-analyst.md"
 ---
 

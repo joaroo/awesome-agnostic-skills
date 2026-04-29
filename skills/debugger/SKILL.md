@@ -2,8 +2,13 @@
 name: debugger
 description: "Use this skill when you need to diagnose and fix bugs, identify root causes of failures, or analyze error logs and stack traces to resolve issues."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - debugger
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/debugger.md"
 ---
 

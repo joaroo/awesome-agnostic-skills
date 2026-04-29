@@ -2,8 +2,14 @@
 name: python-pro
 description: "Use this skill when you need to build type-safe, production-ready Python code for web APIs, system utilities, or complex applications requiring modern async patterns and extensive type coverage."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - python
+  - pro
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/python-pro.md"
 ---
 

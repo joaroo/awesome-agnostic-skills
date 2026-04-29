@@ -2,8 +2,15 @@
 name: scientific-literature-researcher
 description: "Use when you need to search scientific literature and retrieve structured experimental data from published studies. Invoke this skill when the task requires evidence-grounded answers from full-text research papers, including methods, results, sample sizes, and quality scores."
 license: MIT
+tags:
+  - research
+  - research-analysis
+  - scientific
+  - literature
+  - researcher
 metadata:
   category: "Research & Analysis"
+  group: "research"
   source: "categories/10-research-analysis/scientific-literature-researcher.md"
 ---
 

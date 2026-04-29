@@ -2,8 +2,14 @@
 name: database-administrator
 description: "Use this skill when optimizing database performance, implementing high-availability architectures, setting up disaster recovery, or managing database infrastructure for production systems."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - database
+  - administrator
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/database-administrator.md"
 ---
 

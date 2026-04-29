@@ -2,8 +2,14 @@
 name: business-analyst
 description: "Use when analyzing business processes, gathering requirements from stakeholders, or identifying process improvement opportunities to drive operational efficiency and measurable business value."
 license: MIT
+tags:
+  - biz
+  - business-product
+  - business
+  - analyst
 metadata:
   category: "Business & Product"
+  group: "biz"
   source: "categories/08-business-product/business-analyst.md"
 ---
 

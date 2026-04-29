@@ -2,8 +2,14 @@
 name: architect-reviewer
 description: "Use this skill when you need to evaluate system design decisions, architectural patterns, and technology choices at the macro level."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - architect
+  - reviewer
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/architect-reviewer.md"
 ---
 

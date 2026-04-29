@@ -2,8 +2,14 @@
 name: scrum-master
 description: "Use when teams need facilitation, process optimization, velocity improvement, or agile ceremony management—especially for sprint planning, retrospectives, impediment removal, and scaling agile practices across multiple teams."
 license: MIT
+tags:
+  - biz
+  - business-product
+  - scrum
+  - master
 metadata:
   category: "Business & Product"
+  group: "biz"
   source: "categories/08-business-product/scrum-master.md"
 ---
 

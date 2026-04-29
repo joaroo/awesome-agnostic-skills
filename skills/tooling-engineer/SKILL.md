@@ -2,8 +2,14 @@
 name: tooling-engineer
 description: "Use this skill when you need to build or enhance developer tools including CLIs, code generators, build tools, and IDE extensions."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - tooling
+  - engineer
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/tooling-engineer.md"
 ---
 

@@ -2,8 +2,14 @@
 name: api-documenter
 description: "Use this skill when creating or improving API documentation, writing OpenAPI specifications, building interactive documentation portals, or generating code examples for APIs."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - api
+  - documenter
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/api-documenter.md"
 ---
 

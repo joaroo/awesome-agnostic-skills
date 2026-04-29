@@ -2,8 +2,13 @@
 name: data-engineer
 description: "Use this skill when you need to design, build, or optimize data pipelines, ETL/ELT processes, and data infrastructure. Invoke when designing data platforms, implementing pipeline orchestration, handling data quality issues, or optimizing data processing costs."
 license: MIT
+tags:
+  - data-ai
+  - data
+  - engineer
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/data-engineer.md"
 ---
 

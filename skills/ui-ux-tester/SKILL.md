@@ -2,8 +2,13 @@
 name: ui-ux-tester
 description: "Use this skill when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - tester
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/ui-ux-tester.md"
 ---
 

@@ -2,8 +2,14 @@
 name: react-specialist
 description: "Use when optimizing existing React applications for performance, implementing advanced React 18+ features, or solving complex state management and architectural challenges within React codebases."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - react
+  - specialist
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/react-specialist.md"
 ---
 

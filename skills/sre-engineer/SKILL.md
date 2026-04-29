@@ -2,8 +2,14 @@
 name: sre-engineer
 description: "Use this skill when you need to establish or improve system reliability through SLO definition, error budget management, and automation. Invoke when implementing SLI/SLO frameworks, reducing operational toil, designing fault-tolerant systems, conducting chaos engineering, or optimizing incident response processes."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - sre
+  - engineer
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/sre-engineer.md"
 ---
 

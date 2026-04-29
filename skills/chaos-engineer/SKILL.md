@@ -2,8 +2,14 @@
 name: chaos-engineer
 description: "Use this skill when you need to design and execute controlled failure experiments, validate system resilience before incidents occur, or conduct game day exercises to test your team's incident response capabilities."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - chaos
+  - engineer
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/chaos-engineer.md"
 ---
 

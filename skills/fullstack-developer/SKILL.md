@@ -2,8 +2,14 @@
 name: fullstack-developer
 description: "Use this skill when you need to build complete features spanning database, API, and frontend layers together as a cohesive unit."
 license: MIT
+tags:
+  - core
+  - core-development
+  - fullstack
+  - developer
 metadata:
   category: "Core Development"
+  group: "core"
   source: "categories/01-core-development/fullstack-developer.md"
 ---
 

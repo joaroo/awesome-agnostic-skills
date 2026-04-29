@@ -2,8 +2,14 @@
 name: websocket-engineer
 description: "Use this skill when implementing real-time bidirectional communication features using WebSockets, Socket.IO, or similar technologies at scale."
 license: MIT
+tags:
+  - core
+  - core-development
+  - websocket
+  - engineer
 metadata:
   category: "Core Development"
+  group: "core"
   source: "categories/01-core-development/websocket-engineer.md"
 ---
 

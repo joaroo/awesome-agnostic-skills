@@ -2,8 +2,14 @@
 name: mcp-developer
 description: "Use this skill when you need to build, debug, or optimize Model Context Protocol (MCP) servers and clients that connect AI systems to external tools and data sources."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - mcp
+  - developer
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/mcp-developer.md"
 ---
 

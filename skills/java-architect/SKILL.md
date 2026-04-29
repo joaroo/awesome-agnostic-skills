@@ -2,8 +2,14 @@
 name: java-architect
 description: "Use this skill when designing enterprise Java architectures, migrating Spring Boot applications, or establishing microservices patterns for scalable cloud-native systems."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - java
+  - architect
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/java-architect.md"
 ---
 

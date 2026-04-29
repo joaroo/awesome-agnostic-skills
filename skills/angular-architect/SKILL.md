@@ -2,8 +2,14 @@
 name: angular-architect
 description: "Use when architecting enterprise Angular 15+ applications with complex state management, optimizing RxJS patterns, designing micro-frontend systems, or solving performance and scalability challenges in large codebases."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - angular
+  - architect
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/angular-architect.md"
 ---
 

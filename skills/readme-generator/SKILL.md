@@ -2,8 +2,14 @@
 name: readme-generator
 description: "Use this skill when you need a maintainer-ready README built from exact repository reality, with deep codebase scanning, zero hallucination, and optional git commit/push only when explicitly requested."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - readme
+  - generator
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/readme-generator.md"
 ---
 

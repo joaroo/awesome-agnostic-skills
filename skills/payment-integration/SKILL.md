@@ -2,8 +2,14 @@
 name: payment-integration
 description: "Use this skill when implementing payment systems, integrating payment gateways, or handling financial transactions that require PCI compliance, fraud prevention, and secure transaction processing."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - payment
+  - integration
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/payment-integration.md"
 ---
 

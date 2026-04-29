@@ -2,8 +2,14 @@
 name: deployment-engineer
 description: "Use this skill when designing, building, or optimizing CI/CD pipelines and deployment automation strategies."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - deployment
+  - engineer
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/deployment-engineer.md"
 ---
 

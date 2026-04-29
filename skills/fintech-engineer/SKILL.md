@@ -2,8 +2,14 @@
 name: fintech-engineer
 description: "Use when building payment systems, financial integrations, or compliance-heavy financial applications that require secure transaction processing, regulatory adherence, and high transaction accuracy."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - fintech
+  - engineer
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/fintech-engineer.md"
 ---
 

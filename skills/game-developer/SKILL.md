@@ -2,8 +2,14 @@
 name: game-developer
 description: "Use this skill when implementing game systems, optimizing graphics rendering, building multiplayer networking, or developing gameplay mechanics for games targeting specific platforms."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - game
+  - developer
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/game-developer.md"
 ---
 

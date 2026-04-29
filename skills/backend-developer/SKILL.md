@@ -2,8 +2,14 @@
 name: backend-developer
 description: "Use this skill when building server-side APIs, microservices, and backend systems that require robust architecture, scalability planning, and production-ready implementation."
 license: MIT
+tags:
+  - core
+  - core-development
+  - backend
+  - developer
 metadata:
   category: "Core Development"
+  group: "core"
   source: "categories/01-core-development/backend-developer.md"
 ---
 

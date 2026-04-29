@@ -2,8 +2,14 @@
 name: vue-expert
 description: "Use this skill when building Vue 3 applications that require Composition API mastery, reactivity optimization, or Nuxt 3 development with enterprise-scale performance concerns."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - vue
+  - expert
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/vue-expert.md"
 ---
 

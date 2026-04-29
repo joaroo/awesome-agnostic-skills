@@ -2,8 +2,14 @@
 name: terraform-engineer
 description: "Use when building, refactoring, or scaling infrastructure as code using Terraform with focus on multi-cloud deployments, module architecture, and enterprise-grade state management."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - terraform
+  - engineer
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/terraform-engineer.md"
 ---
 

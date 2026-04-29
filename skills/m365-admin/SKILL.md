@@ -2,8 +2,14 @@
 name: m365-admin
 description: "Use when automating Microsoft 365 administrative tasks including Exchange Online mailbox provisioning, Teams collaboration management, SharePoint site configuration, license lifecycle management, and Graph API-driven identity automation."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - m365
+  - admin
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/m365-admin.md"
 ---
 

@@ -2,8 +2,14 @@
 name: swift-expert
 description: "Use this skill when building native iOS, macOS, or server-side Swift applications requiring advanced concurrency patterns, protocol-oriented architecture, and Swift-specific optimizations. Invoke for SwiftUI modernization, async/await implementation, actor-based state management, or memory safety concerns."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - swift
+  - expert
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/swift-expert.md"
 ---
 

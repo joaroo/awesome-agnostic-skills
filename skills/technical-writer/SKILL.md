@@ -2,8 +2,14 @@
 name: technical-writer
 description: "Use this skill when you need to create, improve, or maintain technical documentation including API references, user guides, SDK documentation, and getting-started guides."
 license: MIT
+tags:
+  - biz
+  - business-product
+  - technical
+  - writer
 metadata:
   category: "Business & Product"
+  group: "biz"
   source: "categories/08-business-product/technical-writer.md"
 ---
 

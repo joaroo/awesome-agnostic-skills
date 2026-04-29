@@ -2,8 +2,14 @@
 name: devops-engineer
 description: "Use this skill when building or optimizing infrastructure automation, CI/CD pipelines, containerization strategies, and deployment workflows to accelerate software delivery while maintaining reliability and security."
 license: MIT
+tags:
+  - infra
+  - infrastructure
+  - devops
+  - engineer
 metadata:
   category: "Infrastructure"
+  group: "infra"
   source: "categories/03-infrastructure/devops-engineer.md"
 ---
 

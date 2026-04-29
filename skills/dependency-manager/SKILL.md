@@ -2,8 +2,14 @@
 name: dependency-manager
 description: "Use this skill when you need to audit dependencies for vulnerabilities, resolve version conflicts, optimize bundle sizes, or implement automated dependency updates."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - dependency
+  - manager
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/dependency-manager.md"
 ---
 

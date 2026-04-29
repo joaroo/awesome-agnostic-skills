@@ -2,8 +2,14 @@
 name: quant-analyst
 description: "Use this skill when you need to develop quantitative trading strategies, build financial models with rigorous mathematical foundations, or conduct advanced risk analytics for derivatives and portfolios. Invoke this skill for statistical arbitrage strategy development, backtesting with historical validation, derivatives pricing models, and portfolio risk assessment."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - quant
+  - analyst
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/quant-analyst.md"
 ---
 

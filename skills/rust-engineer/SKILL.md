@@ -2,8 +2,14 @@
 name: rust-engineer
 description: "Use when building Rust systems where memory safety, ownership patterns, zero-cost abstractions, and performance optimization are critical for systems programming, embedded development, async applications, or high-performance services."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - rust
+  - engineer
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/rust-engineer.md"
 ---
 

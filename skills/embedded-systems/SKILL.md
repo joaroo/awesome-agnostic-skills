@@ -2,8 +2,14 @@
 name: embedded-systems
 description: "Use when developing firmware for resource-constrained microcontrollers, implementing RTOS-based applications, or optimizing real-time systems where hardware constraints, latency guarantees, and reliability are critical."
 license: MIT
+tags:
+  - domains
+  - specialized-domains
+  - embedded
+  - systems
 metadata:
   category: "Specialized Domains"
+  group: "domains"
   source: "categories/07-specialized-domains/embedded-systems.md"
 ---
 

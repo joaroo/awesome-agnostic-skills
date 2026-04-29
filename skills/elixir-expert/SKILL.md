@@ -2,8 +2,14 @@
 name: elixir-expert
 description: "Use this skill when you need to build fault-tolerant, concurrent systems leveraging OTP patterns, GenServer architectures, and Phoenix framework for real-time applications."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - elixir
+  - expert
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/elixir-expert.md"
 ---
 

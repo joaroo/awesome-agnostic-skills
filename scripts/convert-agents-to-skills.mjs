@@ -29,6 +29,19 @@ const categoryLabels = new Map([
   ['10-research-analysis', 'Research & Analysis'],
 ]);
 
+const categoryGroups = new Map([
+  ['01-core-development', { slug: 'core', description: 'Core development, UI, API, mobile, and full-stack skills' }],
+  ['02-language-specialists', { slug: 'lang', description: 'Language and framework specialist skills' }],
+  ['03-infrastructure', { slug: 'infra', description: 'Infrastructure, cloud, DevOps, and operations skills' }],
+  ['04-quality-security', { slug: 'quality', description: 'Quality, testing, security, compliance, and reliability skills' }],
+  ['05-data-ai', { slug: 'data-ai', description: 'Data, machine learning, AI, and database skills' }],
+  ['06-developer-experience', { slug: 'dx', description: 'Developer experience, tooling, documentation, and workflow skills' }],
+  ['07-specialized-domains', { slug: 'domains', description: 'Specialized domain skills such as fintech, IoT, gaming, and healthcare' }],
+  ['08-business-product', { slug: 'biz', description: 'Business, product, sales, customer, and content skills' }],
+  ['09-meta-orchestration', { slug: 'meta', description: 'Multi-agent coordination, orchestration, and shared context skills' }],
+  ['10-research-analysis', { slug: 'research', description: 'Research, market intelligence, SEO, and analysis skills' }],
+]);
+
 const frontmatterPattern = /^---\n([\s\S]*?)\n---\n?/;
 
 function slugify(value) {
@@ -90,6 +103,20 @@ function escapeYaml(value) {
   return JSON.stringify(value.replace(/\s+/g, ' ').trim());
 }
 
+function yamlList(values) {
+  return values.map((value) => `  - ${value}`).join('\n');
+}
+
+function getCategoryGroup(categoryDir) {
+  return categoryGroups.get(categoryDir) ?? { slug: slugify(categoryDir), description: categoryLabels.get(categoryDir) ?? categoryDir };
+}
+
+function getTags(name, categoryDir) {
+  const group = getCategoryGroup(categoryDir).slug;
+  const category = slugify(categoryLabels.get(categoryDir) ?? categoryDir);
+  return [...new Set([group, category, ...name.split('-').filter((part) => part.length > 2)])];
+}
+
 function cleanBody(body) {
   let cleaned = body;
 
@@ -123,9 +150,17 @@ function cleanDescription(description) {
 
 function buildSkill({ name, description, categoryDir, sourcePath, body }) {
   const category = categoryLabels.get(categoryDir) ?? categoryDir;
+  const categoryGroup = getCategoryGroup(categoryDir).slug;
   const title = titleCase(name);
+  const tags = getTags(name, categoryDir);
 
-  return `---\nname: ${name}\ndescription: ${escapeYaml(cleanDescription(description))}\nlicense: MIT\nmetadata:\n  category: ${escapeYaml(category)}\n  source: ${escapeYaml(sourcePath)}\n---\n\n# ${title}\n\nThis skill is an agent-agnostic adaptation of the original VoltAgent Claude Code subagent. Use the workflow guidance below with whatever tools, permissions, and execution model your host agent provides.\n\n## Attribution\n\nAdapted from [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents), copyright (c) 2025 VoltAgent, licensed under the MIT License. The repository-level LICENSE file contains the full license text.\n\n## Compatibility Notes\n\n- Treat references to files, commands, tests, repositories, and project context as host-environment capabilities rather than Claude-specific tools.\n- Ask for missing context before making irreversible changes.\n- Prefer read-only discovery before edits, and verify changes with the project's available checks.\n\n${cleanBody(body)}\n`;
+  return `---\nname: ${name}\ndescription: ${escapeYaml(cleanDescription(description))}\nlicense: MIT\ntags:\n${yamlList(tags)}\nmetadata:\n  category: ${escapeYaml(category)}\n  group: ${escapeYaml(categoryGroup)}\n  source: ${escapeYaml(sourcePath)}\n---\n\n# ${title}\n\nThis skill is an agent-agnostic adaptation of the original VoltAgent Claude Code subagent. Use the workflow guidance below with whatever tools, permissions, and execution model your host agent provides.\n\n## Attribution\n\nAdapted from [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents), copyright (c) 2025 VoltAgent, licensed under the MIT License. The repository-level LICENSE file contains the full license text.\n\n## Compatibility Notes\n\n- Treat references to files, commands, tests, repositories, and project context as host-environment capabilities rather than Claude-specific tools.\n- Ask for missing context before making irreversible changes.\n- Prefer read-only discovery before edits, and verify changes with the project's available checks.\n\n${cleanBody(body)}\n`;
+}
+
+function buildInstallCommand(groupSkills) {
+  const parts = ['npx skills add joaroo/awesome-agnostic-skills'];
+  for (const skill of groupSkills) parts.push(`  --skill ${skill}`);
+  return `${parts.join(' \\\n')}\n`;
 }
 
 async function listAgentFiles() {
@@ -158,6 +193,7 @@ async function main() {
   await mkdir(skillsDir, { recursive: true });
 
   const index = [];
+  const groups = {};
   const seen = new Set();
 
   for (const agentFile of agentFiles) {
@@ -185,7 +221,19 @@ async function main() {
     await writeFile(path.join(targetDir, 'SKILL.md'), skillMarkdown, 'utf8');
     await writeFile(path.join(targetDir, 'LICENSE'), licenseText, 'utf8');
 
-    index.push({ name, description: cleanDescription(description), category: categoryLabels.get(agentFile.categoryDir) ?? agentFile.categoryDir });
+    const group = getCategoryGroup(agentFile.categoryDir);
+    groups[group.slug] ??= {
+      description: group.description,
+      category: categoryLabels.get(agentFile.categoryDir) ?? agentFile.categoryDir,
+      skills: [],
+    };
+    groups[group.slug].skills.push(name);
+
+    index.push({ name, description: cleanDescription(description), category: categoryLabels.get(agentFile.categoryDir) ?? agentFile.categoryDir, group: group.slug });
+  }
+
+  for (const group of Object.values(groups)) {
+    group.skills.sort((a, b) => a.localeCompare(b));
   }
 
   const indexMarkdown = [
@@ -193,7 +241,15 @@ async function main() {
     '',
     '<!-- Generated by scripts/convert-agents-to-skills.mjs. Do not edit manually. -->',
     '',
+    '## Install Groups',
+    '',
+    '`npx skills` does not yet support publisher-defined `--group` installs, so these generated groups are provided as copy-paste commands and in [`groups.json`](./groups.json).',
+    '',
   ];
+
+  for (const [groupSlug, group] of Object.entries(groups).sort(([a], [b]) => a.localeCompare(b))) {
+    indexMarkdown.push(`### ${groupSlug}`, '', group.description, '', '```bash', buildInstallCommand(group.skills).trimEnd(), '```', '');
+  }
 
   for (const category of [...new Set(index.map((item) => item.category))]) {
     indexMarkdown.push(`## ${category}`, '');
@@ -203,6 +259,7 @@ async function main() {
     indexMarkdown.push('');
   }
 
+  await writeFile(path.join(skillsDir, 'groups.json'), `${JSON.stringify(groups, null, 2)}\n`, 'utf8');
   await writeFile(path.join(skillsDir, 'README.md'), `${indexMarkdown.join('\n').trim()}\n`, 'utf8');
   console.log(`Generated ${index.length} skills in ${path.relative(root, skillsDir)}/`);
 }

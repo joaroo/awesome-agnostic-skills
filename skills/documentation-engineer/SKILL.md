@@ -2,8 +2,14 @@
 name: documentation-engineer
 description: "Use this skill when you need to create, architect, or overhaul comprehensive documentation systems including API docs, tutorials, guides, and developer-friendly content that keeps pace with code changes."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - documentation
+  - engineer
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/documentation-engineer.md"
 ---
 

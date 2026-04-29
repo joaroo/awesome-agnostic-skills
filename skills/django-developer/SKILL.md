@@ -2,8 +2,14 @@
 name: django-developer
 description: "Use when building Django 4+ web applications, REST APIs, or modernizing existing Django projects with async views and enterprise patterns."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - django
+  - developer
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/django-developer.md"
 ---
 

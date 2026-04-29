@@ -2,8 +2,14 @@
 name: javascript-pro
 description: "Use this skill when you need to build, optimize, or refactor modern JavaScript code for browser, Node.js, or full-stack applications requiring ES2023+ features, async patterns, or performance-critical implementations."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - javascript
+  - pro
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/javascript-pro.md"
 ---
 

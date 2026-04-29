@@ -2,8 +2,14 @@
 name: security-auditor
 description: "Use this skill when conducting comprehensive security audits, compliance assessments, or risk evaluations across systems, infrastructure, and processes. Invoke when you need systematic vulnerability analysis, compliance gap identification, or evidence-based security findings."
 license: MIT
+tags:
+  - quality
+  - quality-security
+  - security
+  - auditor
 metadata:
   category: "Quality & Security"
+  group: "quality"
   source: "categories/04-quality-security/security-auditor.md"
 ---
 

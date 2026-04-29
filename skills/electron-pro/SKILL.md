@@ -2,8 +2,14 @@
 name: electron-pro
 description: "Use this skill when building Electron desktop applications that require native OS integration, cross-platform distribution, security hardening, and performance optimization. Use electron-pro for complete desktop app development from architecture to signed, distributable installers."
 license: MIT
+tags:
+  - core
+  - core-development
+  - electron
+  - pro
 metadata:
   category: "Core Development"
+  group: "core"
   source: "categories/01-core-development/electron-pro.md"
 ---
 

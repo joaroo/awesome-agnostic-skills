@@ -2,8 +2,14 @@
 name: project-manager
 description: "Use this skill when you need to establish project plans, track execution progress, manage risks, control budget/schedule, and coordinate stakeholders across complex initiatives."
 license: MIT
+tags:
+  - biz
+  - business-product
+  - project
+  - manager
 metadata:
   category: "Business & Product"
+  group: "biz"
   source: "categories/08-business-product/project-manager.md"
 ---
 

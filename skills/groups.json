@@ -1,0 +1,205 @@
+{
+  "core": {
+    "description": "Core development, UI, API, mobile, and full-stack skills",
+    "category": "Core Development",
+    "skills": [
+      "api-designer",
+      "backend-developer",
+      "design-bridge",
+      "electron-pro",
+      "frontend-developer",
+      "fullstack-developer",
+      "graphql-architect",
+      "microservices-architect",
+      "mobile-developer",
+      "ui-designer",
+      "websocket-engineer"
+    ]
+  },
+  "lang": {
+    "description": "Language and framework specialist skills",
+    "category": "Language Specialists",
+    "skills": [
+      "angular-architect",
+      "cpp-pro",
+      "csharp-developer",
+      "django-developer",
+      "dotnet-core-expert",
+      "dotnet-framework-4-8-expert",
+      "elixir-expert",
+      "expo-react-native-expert",
+      "fastapi-developer",
+      "flutter-expert",
+      "golang-pro",
+      "java-architect",
+      "javascript-pro",
+      "kotlin-specialist",
+      "laravel-specialist",
+      "nextjs-developer",
+      "node-specialist",
+      "php-pro",
+      "powershell-5-1-expert",
+      "powershell-7-expert",
+      "python-pro",
+      "rails-expert",
+      "react-specialist",
+      "rust-engineer",
+      "spring-boot-engineer",
+      "sql-pro",
+      "swift-expert",
+      "symfony-specialist",
+      "typescript-pro",
+      "vue-expert"
+    ]
+  },
+  "infra": {
+    "description": "Infrastructure, cloud, DevOps, and operations skills",
+    "category": "Infrastructure",
+    "skills": [
+      "azure-infra-engineer",
+      "cloud-architect",
+      "database-administrator",
+      "deployment-engineer",
+      "devops-engineer",
+      "devops-incident-responder",
+      "docker-expert",
+      "incident-responder",
+      "kubernetes-specialist",
+      "network-engineer",
+      "platform-engineer",
+      "security-engineer",
+      "sre-engineer",
+      "terraform-engineer",
+      "terragrunt-expert",
+      "windows-infra-admin"
+    ]
+  },
+  "quality": {
+    "description": "Quality, testing, security, compliance, and reliability skills",
+    "category": "Quality & Security",
+    "skills": [
+      "accessibility-tester",
+      "ad-security-reviewer",
+      "ai-writing-auditor",
+      "architect-reviewer",
+      "chaos-engineer",
+      "code-reviewer",
+      "compliance-auditor",
+      "debugger",
+      "error-detective",
+      "penetration-tester",
+      "performance-engineer",
+      "powershell-security-hardening",
+      "qa-expert",
+      "security-auditor",
+      "test-automator",
+      "ui-ux-tester"
+    ]
+  },
+  "data-ai": {
+    "description": "Data, machine learning, AI, and database skills",
+    "category": "Data & AI",
+    "skills": [
+      "ai-engineer",
+      "data-analyst",
+      "data-engineer",
+      "data-scientist",
+      "database-optimizer",
+      "llm-architect",
+      "machine-learning-engineer",
+      "ml-engineer",
+      "mlops-engineer",
+      "nlp-engineer",
+      "postgres-pro",
+      "prompt-engineer",
+      "reinforcement-learning-engineer"
+    ]
+  },
+  "dx": {
+    "description": "Developer experience, tooling, documentation, and workflow skills",
+    "category": "Developer Experience",
+    "skills": [
+      "build-engineer",
+      "cli-developer",
+      "dependency-manager",
+      "documentation-engineer",
+      "dx-optimizer",
+      "git-workflow-manager",
+      "legacy-modernizer",
+      "mcp-developer",
+      "powershell-module-architect",
+      "powershell-ui-architect",
+      "readme-generator",
+      "refactoring-specialist",
+      "slack-expert",
+      "tooling-engineer"
+    ]
+  },
+  "domains": {
+    "description": "Specialized domain skills such as fintech, IoT, gaming, and healthcare",
+    "category": "Specialized Domains",
+    "skills": [
+      "api-documenter",
+      "blockchain-developer",
+      "embedded-systems",
+      "fintech-engineer",
+      "game-developer",
+      "healthcare-admin",
+      "iot-engineer",
+      "m365-admin",
+      "mobile-app-developer",
+      "payment-integration",
+      "quant-analyst",
+      "risk-manager",
+      "seo-specialist"
+    ]
+  },
+  "biz": {
+    "description": "Business, product, sales, customer, and content skills",
+    "category": "Business & Product",
+    "skills": [
+      "business-analyst",
+      "content-marketer",
+      "customer-success-manager",
+      "legal-advisor",
+      "license-engineer",
+      "product-manager",
+      "project-manager",
+      "sales-engineer",
+      "scrum-master",
+      "technical-writer",
+      "ux-researcher",
+      "wordpress-master"
+    ]
+  },
+  "meta": {
+    "description": "Multi-agent coordination, orchestration, and shared context skills",
+    "category": "Meta Orchestration",
+    "skills": [
+      "agent-organizer",
+      "codebase-orchestrator",
+      "context-manager",
+      "error-coordinator",
+      "it-ops-orchestrator",
+      "knowledge-synthesizer",
+      "multi-agent-coordinator",
+      "performance-monitor",
+      "task-distributor",
+      "workflow-orchestrator"
+    ]
+  },
+  "research": {
+    "description": "Research, market intelligence, SEO, and analysis skills",
+    "category": "Research & Analysis",
+    "skills": [
+      "competitive-analyst",
+      "data-researcher",
+      "market-researcher",
+      "project-idea-validator",
+      "research-analyst",
+      "scientific-literature-researcher",
+      "search-specialist",
+      "trend-analyst"
+    ]
+  }
+}

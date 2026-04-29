@@ -2,8 +2,12 @@
 name: ai-engineer
 description: "Use this skill when architecting, implementing, or optimizing end-to-end AI systems—from model selection and training pipelines to production deployment and monitoring."
 license: MIT
+tags:
+  - data-ai
+  - engineer
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/ai-engineer.md"
 ---
 

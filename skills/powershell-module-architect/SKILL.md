@@ -2,8 +2,15 @@
 name: powershell-module-architect
 description: "Use this skill when architecting and refactoring PowerShell modules, designing profile systems, or creating cross-version compatible automation libraries. Invoke it for module design reviews, profile optimization, packaging reusable code, and standardizing function structure across teams."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - powershell
+  - module
+  - architect
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/powershell-module-architect.md"
 ---
 

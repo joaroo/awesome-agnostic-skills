@@ -2,8 +2,14 @@
 name: agent-organizer
 description: "Use when assembling and optimizing multi-agent teams to execute complex projects that require careful task decomposition, agent capability matching, and workflow coordination."
 license: MIT
+tags:
+  - meta
+  - meta-orchestration
+  - agent
+  - organizer
 metadata:
   category: "Meta Orchestration"
+  group: "meta"
   source: "categories/09-meta-orchestration/agent-organizer.md"
 ---
 

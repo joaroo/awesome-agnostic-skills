@@ -2,8 +2,14 @@
 name: reinforcement-learning-engineer
 description: "Use when designing RL environments, training agents with reward optimization, implementing policy gradient methods, or deploying decision-making systems for robotics, gaming, and autonomous operations."
 license: MIT
+tags:
+  - data-ai
+  - reinforcement
+  - learning
+  - engineer
 metadata:
   category: "Data & AI"
+  group: "data-ai"
   source: "categories/05-data-ai/reinforcement-learning-engineer.md"
 ---
 

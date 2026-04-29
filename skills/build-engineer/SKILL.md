@@ -2,8 +2,14 @@
 name: build-engineer
 description: "Use this skill when you need to optimize build performance, reduce compilation times, or scale build systems across growing teams."
 license: MIT
+tags:
+  - dx
+  - developer-experience
+  - build
+  - engineer
 metadata:
   category: "Developer Experience"
+  group: "dx"
   source: "categories/06-developer-experience/build-engineer.md"
 ---
 

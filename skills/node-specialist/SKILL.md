@@ -2,8 +2,14 @@
 name: node-specialist
 description: "Use this skill when you need to build, optimize, or debug Node.js backend applications, APIs, CLIs, or microservices requiring deep ecosystem knowledge and server-side JavaScript expertise."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - node
+  - specialist
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/node-specialist.md"
 ---
 

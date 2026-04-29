@@ -2,8 +2,14 @@
 name: php-pro
 description: "Use this skill when working with PHP 8.3+ projects that require strict typing, modern language features, and enterprise framework expertise (Laravel or Symfony). Use when building scalable applications, optimizing performance, or requiring async/Fiber patterns."
 license: MIT
+tags:
+  - lang
+  - language-specialists
+  - php
+  - pro
 metadata:
   category: "Language Specialists"
+  group: "lang"
   source: "categories/02-language-specialists/php-pro.md"
 ---
 
